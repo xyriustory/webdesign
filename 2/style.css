@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------ここから------*/
+.body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.header{
+	height: 100px;
+	display: flex;
+	align-items: center;
+	background: url(image/bg1.png), linear-gradient(#0b24c2, #1e4fff);
+}
+.header-title{
+	flex: 1;
+	padding-left: 2%;
+}
+.header-logo {
+	height: 30px;
+	width: 250px;
+}
+.header-info {
+	display: inline-block;
+	width: 264.48px;
+	text-align: center;
+	padding-top: 15px;
+	padding-right: 2%;
+	color: #fff;
+}
+.header-tel{
+	letter-spacing: 0.1em;
+	font-size: 24px;
+}
+.header-tel span {
+	display: block;
+	height: 50px;
+	line-height:50px;
+	font-size: 11px;
+}
+.nav-ul{
+	padding: 0 20px;
+	display: flex;
+	background: linear-gradient(#5e5e5e, #3c3c3c 49%, #191919 50%);
+}
+.nav-li{
+	width: 0px;
+	flex: 1;
+	display: inline-block;
+	border-right: 1px solid #000;
+	height: 68px;
+	text-align: center;
+	transition: 0.5s;
+}
+.nav-li:hover{
+	background: #333;
+	transition: 0.5s;
+}
+.nav-li:first-child{
+	border-left: 1px solid #000;
+}
+.nav-li a{
+	color: white;
+	padding: 1.2em 10% 0.8em;
+	min-width: 6em;
+	height: 38px;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	font-size: 15px;
+	font-family: "ヒラギノ角ゴ Pro W3",;
+}
+.nav-li span {
+	display: block;
+	font-size: 10px;
+	height: 24px;
+	line-height: 24px;
+	letter-spacing: 0.2em;
+	opacity: 0.5;
+}
+
+.container {
+	display: flex;
+
+}
+
+main{
+	display: inline-block;
+	flex: 4;
+	margin: 40px 0;
+	background: grey;
+}
+.img-main{
+	width: 100%;
+	height: auto;
+}
+
+.left-sidebar{
+	display: inline-block;
+	flex: 1;
+	order: -1;
+	margin: 40px 2%;
+	background: grey;
+}
+
+.right-sidebar {
+	display: inline-block;
+	flex: 1;
+	margin: 40px 2%;
+	background: grey;
+}
+
+.footer-menu{
+	display: flex;
+	background: #0C23C2;
+}
+.footer-menu ul {
+  padding: 20px 0;
+	flex: 1;
+}
+.footer-menu li {
+	height: 25px;
+	padding: 0 2%;
+}
+.footer-menu a {
+	color: white;
+	font-size: 12.75px;
+}
+.copyright{
+	text-align: center;
+	background: #333333;
+	font-size: 10.2px;
+	height : 45px;
+	width: 100%;
+	line-height: 22.5px;
+	color: white;
+}
+small {
+	font-size: 10.625px;
+}

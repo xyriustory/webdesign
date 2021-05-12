@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+  font-family: YakuHanJP,"Noto Sans JP","游ゴシック体",YuGothic,"游ゴシック","Yu Gothic","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ ProN W3","メイリオ",Meiryo,sans-serif;
+}
+.top{
+  padding: 16px 16px 0;
+  display: flex;
+}
+header h1{
+  width: 92px;
+  padding: 5px;
+}
+.subnav{
+  flex: 1;
+  display:flex;
+  width: 600px;
+  text-align: right;
+}
+.subnav ul{
+  flex: 1;
+}
+.subnav ul li {
+  display: inline-block;
+  line-height: 50px;
+}
+.subnav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #616161;
+  margin: 0 5px;
+  font-size: 12px;
+}
+img.search {
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+}
+nav {
+  margin: 0 auto;
+}
+nav ul {
+  width: 911px;
+  margin: 0 auto;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a{
+  display: inline-block;
+  line-height: 56px;
+  padding: 0 30px;
+  height: 56px;
+  text-decoration: none;
+  color: #616161;
+}
+
+.p-like {
+  font-family: Roboto,"游ゴシック体",YuGothic,"游ゴシック","Yu Gothic","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ ProN W3","メイリオ",Meiryo,sans-serif;
+  display: inline-block;
+  color: #D72F39;
+  vertical-align: middle;
+}
+
+h1 {
+  font-family: YakuHanMP,"Noto Serif JP","游明朝",YuMincho,"ヒラギノ明朝 ProN W3","Hiragino Mincho ProN",serif;
+}
+
+.like {
+  width: 44px;
+  height: 44px;
+  vertical-align: middle;
+}
+
+.fish{
+  width: 92px;
+  height: 51px;
+  vertical-align: middle;
+}
+
+.inner a{
+  text-decoration: none;
+  color: #616161;
+}
+
+.inner h1 {
+  font-size: 5.9vw;
+  width: 452.5px;
+  height: 231px; 
+}
+.inner h1:after{
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-top: 16px;
+  content: "";
+  background-color: #d72e39;
+}
+.main{
+  position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: "";
+    border: 7.821vw solid #ef3340;
+    border-radius: 50%;
+}
+
